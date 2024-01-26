@@ -1,0 +1,39 @@
+name: oracle_app_2
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0-24.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: 1.0.6
+  firebase_core: 2.24.2
+  firebase_auth: 4.16.0
+  get: 4.6.6
+  shared_preferences: 2.2.2
+  fluttertoast: 8.2.4
+  cloud_firestore: 4.14.0
+  carousel_slider: 4.2.1
+  dio: 5.4.0
+  flutter_image: ^4.1.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/
+  - assets/images/test.png
+  - assets/avatar/jane.jpg
+  - assets/icons/bell.png
+  - assets/icons/Comment.png
+  - assets/icons/new-1.png
+  - assets/icons/new.png
+  - assets/icons/search.png
